@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import titleContext from '../context/titleContext';
 
 function Btn() {
-  return <button>submit</button>;
+  const title = useContext(titleContext);
+
+  return <button>{title}</button>;
 }
 
 export default Btn;
