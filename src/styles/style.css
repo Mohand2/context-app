@@ -1,0 +1,12 @@
+.card {
+  height: 50vh;
+  border-radius: 30px;
+}
+
+.dark {
+  background-color: rgb(20, 55, 68);
+}
+
+.light {
+  background-color: darkgrey;
+}
