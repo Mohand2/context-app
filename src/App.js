@@ -5,9 +5,7 @@ function App() {
   return (
     <div>
       <titleContext.Provider value={'click'}>
-        <Card>
-          <Btn />
-        </Card>
+        <Card text={'text'}></Card>
       </titleContext.Provider>
     </div>
   );
